@@ -1,0 +1,4 @@
+# GitHub Pages (Jekyll) no publica las carpetas que empiezan con punto.
+# .well-known tiene que publicarse para que /.well-known/security.txt sea accesible.
+include:
+  - .well-known
